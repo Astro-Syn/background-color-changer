@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+}
+
+.text{
+    color:aliceblue;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+button{
+    padding: 8px;
+    font-size: 1em;
+    transition: 0.2s ease-in;
+    background:none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgba(255, 255, 255, 0.693);
+}
